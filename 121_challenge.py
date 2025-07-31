@@ -1,0 +1,5 @@
+numbers=input("Please enter three numbers, separated by commas: ")
+only_numbers=numbers.split(",")
+# print(only_numbers)
+sum=int(only_numbers[0])+int(only_numbers[1])-int(only_numbers[2])
+print(f"Output: {sum}")
